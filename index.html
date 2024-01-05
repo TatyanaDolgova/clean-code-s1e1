@@ -5,19 +5,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a class="header__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="main">
-      <div id="add-task">
+    <main class="main">
+      <h1 class="h1">Todo App</h1>
+      <section id="add-task">
         <label class="add-task__label" for="new-task">Add Item</label>
         <div class="add-task__wrapper">
           <input id="new-task" class="task input input-text input-new-task" type="text">
           <button class="button add-task__button">Add</button>
         </div>
-      </div>
-      <h3 class="task-title">Todo</h3>
+      </section>
+      <h2 class="task-title">Todo</h3>
       <ul class="tasks-wrapper" id="incomplete-tasks">
         <li class = "tasks-wrapper__item">
           <input class="input input-checkbox" type="checkbox">
@@ -34,7 +35,7 @@
           <button class="delete button"><img class="delete__img" src="./remove.svg"></button>
         </li>
       </ul>
-      <h3 class="task-title">Completed</h3>
+      <h2 class="task-title">Completed</h3>
       <ul class="tasks-wrapper complete-tasks" id="complete-tasks">
         <li class="tasks-wrapper__item">
           <input class="input input-checkbox" type="checkbox" checked>
