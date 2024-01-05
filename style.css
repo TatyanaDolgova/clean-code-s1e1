@@ -36,14 +36,14 @@
   display: flex;
 }
 .tasks-wrapper {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .tasks-wrapper__item{
-  list-style:none;
+  list-style: none;
 }
 .input,.button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -99,7 +99,7 @@
 
 /* Task list */
 .tasks-wrapper__item {
-  list-style:none;
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -140,14 +140,14 @@
 
 /* Edit Task */
 .tasks-wrapper .tasks-wrapper__item .input-text {
-  display:none
+  display: none
 }
 
 .tasks-wrapper .tasks-wrapper__item.edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks-wrapper .tasks-wrapper__item.edit-mode .label {
-  display:none;
+  display: none;
 }
